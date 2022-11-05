@@ -53,7 +53,7 @@ app.post("/", (req, res) => {
 
   //   multiplication: x * y,
   if (
-    operation_type.includes("multiply") ||
+    operation_type.includes("multiplication") ||
     operation_type.includes("*") ||
     operation_type.includes("times")
   ) {
@@ -63,7 +63,7 @@ app.post("/", (req, res) => {
 
   //   division: x / y,
   if (
-    operation_type.includes("divide") ||
+    operation_type.includes("division") ||
     operation_type.includes("/") ||
     operation_type.includes("by")
   ) {
